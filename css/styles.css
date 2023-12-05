@@ -1,4 +1,39 @@
-h1 {
-    color: teal;
-    background-color: lightgray;
+/* Header section */
+.header {
+}
+.header-nav {
+}
+.header-logo {
+}
+.header-logo-accent {
+}
+.header-logo-img {
+}
+.header-list {
+}
+.header-item {
+}
+.header-link {
+}
+
+.socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
+
+.header {
+}
+.footer {
+}
+.logo {
+}
+.logo-dark {
+    color: black;
+}
+.logo-light {
+    color: white;
 }
