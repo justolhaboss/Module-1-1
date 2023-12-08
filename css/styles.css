@@ -1,4 +1,4 @@
-
+/*Base section*/
 body {
     font-family: 'Poppins', sans-serif
 }
@@ -12,8 +12,19 @@ h3 {
     font-family: 'Oswald', sans-serif;
 }
 /* Header section */
-.header {
+/* 0100 */
+#header {
+    background-color: azure;
 }
+/* 0010 */
+.header {
+    background-color: bisque;
+}
+/* 0001 */
+header {
+    background-color: #FD9222;
+}
+
 .header-nav {
 }
 .header-logo {
@@ -46,14 +57,26 @@ h3 {
 .socials-icon {
 }
 
+/* Hero section */
+h1 {
+    color: rgb(24, 69, 55);
+}
+h1:hover {
+    color: rgb(171, 73, 124);
+}
+h1:active {
+    color: rgb(166, 180, 166);
+}
+.header-link:focus {
+    color: rgb(229, 92, 161);
+}
 
-.footer {
+button {
+    color: #FFFFFF;
+    background-color: #FD9222;
 }
-.logo {
-}
-.logo-dark {
-    color: black;
-}
-.logo-light {
-    color: white;
+button:hover,
+button:focus {
+    color: #FD9222;
+    background-color: #FCF1E0;
 }
