@@ -1,6 +1,8 @@
 /*Base section*/
 body {
-    font-family: 'Poppins', sans-serif
+    font-family: 'Poppins', sans-serif;
+    color: #111;
+    background-color:j #FAFAFA; 
 }
 h1 {
     font-family: 'Oswald', sans-serif;
