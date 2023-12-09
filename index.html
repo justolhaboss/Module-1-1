@@ -9,26 +9,29 @@
     <title>SIMPLY CHOCOLATE</title>
     <!-- Favicon -->
     <link rel="shortcut icon" href="./images/logo.png" type="image/svg" />
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap"
       rel="stylesheet" />
+    <!-- Normalize -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
       integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer" />
-      <link rel="stylesheet" href="./css/styles.css" />
+    <!-- Custom style -->
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
     <!-- Header section -->
     <header class="header" id="header">
       <nav class="header-nav">
-        <a class="header-logo" href="./index.html">
-          <span class="header-logo-accent">SIMPLY</span>CHOCOLATE
+        <a href="./index.html" class="header-logo"><span class="header-logo-accent">SIMPLY</span>
+          CHOCOLATE
           <img
             class="header-logo-img"
             src="./images/logo.svg"
@@ -103,37 +106,38 @@
     <main>
       <!-- Hero section -->
       <section class="hero">
-        <h1>
+        <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
 
-        <ul>
-          <li class="button">
-            <button type="button">Buy now</button>
+        <ul class="hero-list">
+          <li class="hero-item">
+            <button type="button" class="hero-btn">Buy now</button>
           </li>
-          <li>
-            <button type="button">How it’s made</button>
+          <li class="hero-item">
+            <button type="button" class="hero-btn">How it’s made</button>
           </li>
-        </ul>
+        </ul class="hero-scroll">
         <button type="button">scroll down</button>
       </section>
+
       <!-- Feature section -->
-      <section>
+      <section class="features">
         <h2 hidden>Chocolate benefits</h2>
-        <ul>
-          <li>
-            <h3>Unsurpassed taste</h3>
-            <p>
+        <ul class="features-list">
+          <li class="features-item">
+            <h3 class="features-caption">Unsurpassed taste</h3>
+            <p class="features-desc">
               Crafted with the finest quality cocoa beans and a dedication to
               perfection, each bite is a decadent experience that simply cannot
               be matched. Savor the richness and complexity of our Unsurpassed
               Taste and discover a new level of chocolate bliss.
             </p>
           </li>
-          <li>
-            <h3>Affordable price</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-caption">Affordable price</h3>
+            <p class="features-desc">
               Indulge in high-quality chocolate without breaking the bank with
               Simply Chocolate's selection of affordable treats. Enjoy
               mouth-watering truffles and velvety chocolate bars without
@@ -141,9 +145,9 @@
               affordable luxury today.
             </p>
           </li>
-          <li>
-            <h3>Own production</h3>
-            <p>
+          <li class="features-item">
+            <h3 class="features-caption">Own production</h3>
+            <p class="features-desc">
               We take pride in our own production process, ensuring that every
               step is carefully crafted to perfection. From selecting the finest
               ingredients to handcrafting each piece, our attention to detail is
@@ -152,9 +156,10 @@
           </li>
         </ul>
       </section>
-
+      
+      <!-- Section 3-->
       <section>
-        <h2>It all adds up to one exceptional taste sensation</h2>
+        <h2>It all adds up to one exceptional <span>taste</span> sensation</h2>
         <ul>
           <li>
             <img

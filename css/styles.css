@@ -1,38 +1,37 @@
-/*Base section*/
+/*Base styles*/
 body {
-    font-family: 'Poppins', sans-serif;
-    color: #111;
-    background-color:j #FAFAFA; 
+  font-family: 'Montserrat', sans-serif;
+  color: #111;
+  background-color: #fafafa;
 }
-h1 {
-    font-family: 'Oswald', sans-serif;
+  /* Default values */
+  /* font-size: 16px; 
+  font-weight: 400;
+  font-style: normal;
+  color: black;
+  background-color: white; */
+
+a {
+  color: currentColor;
+  text-decoration: none;
 }
-h2 {
-    font-family: 'Oswald', sans-serif;
-}
-h3 {
-    font-family: 'Oswald', sans-serif;
-}
-/* Header section */
-/* 0100 */
-#header {
-    background-color: azure;
-}
-/* 0010 */
-.header {
-    background-color: bisque;
-}
-/* 0001 */
-header {
-    background-color: #FD9222;
+button {
+  font-family: inherit;
+  color: currentColor;
 }
 
 .header-nav {
 }
 .header-logo {
+  color: #111;
+  font-size: 18px;
+  font-style: normal;;
+  font-weight: 700;
+  line-height: 20px; /* 111.111% */
+  letter-spacing: -0.54px;
 }
 .header-logo-accent {
-    font-family: 'Oswald', sans-serif;
+  font-style: italic;
 }
 .header-logo-img {
 }
@@ -45,10 +44,14 @@ header {
 .header-socials {
 }
 .header-socials .socials-icon {
-    color: black;
+  color: black;
 }
 .footer-socials .socials-icon {
-    color: white;
+  color: white;
+}
+
+/* Common style */
+.accent {
 }
 .socials {
 }
@@ -60,25 +63,27 @@ header {
 }
 
 /* Hero section */
-h1 {
-    color: rgb(24, 69, 55);
+.hero {
 }
-h1:hover {
-    color: rgb(171, 73, 124);
+.hero-title {
 }
-h1:active {
-    color: rgb(166, 180, 166);
+.hero-list {
 }
-.header-link:focus {
-    color: rgb(229, 92, 161);
+.hero-item {
+}
+.hero-btn {
+}
+.hero-scroll {
 }
 
-button {
-    color: #FFFFFF;
-    background-color: #FD9222;
+/* Feature section */
+.features {
 }
-button:hover,
-button:focus {
-    color: #FD9222;
-    background-color: #FCF1E0;
+.features-list {
+}
+.features-item {
+}
+.features-caption {
+}
+.features-desc {
 }
