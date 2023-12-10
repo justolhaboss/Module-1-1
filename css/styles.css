@@ -4,8 +4,8 @@ body {
   color: #111;
   background-color: #fafafa;
 }
-  /* Default values */
-  /* font-size: 16px; 
+/* Default values */
+/* font-size: 16px; 
   font-weight: 400;
   font-style: normal;
   color: black;
@@ -19,13 +19,15 @@ button {
   font-family: inherit;
   color: currentColor;
 }
-
+span {
+  color: #fd9222;
+}
 .header-nav {
 }
 .header-logo {
   color: #111;
   font-size: 18px;
-  font-style: normal;;
+  font-style: normal;
   font-weight: 700;
   line-height: 20px; /* 111.111% */
   letter-spacing: -0.54px;
@@ -64,8 +66,13 @@ button {
 
 /* Hero section */
 .hero {
+  background: rgba(17, 17, 17, 0.7);
 }
 .hero-title {
+  font-size: 28px;
+  line-height: 1.21;
+  text-indent: 50px;
+  letter-spacing: -0.03em;
 }
 .hero-list {
 }
@@ -78,6 +85,14 @@ button {
 
 /* Feature section */
 .features {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29; /* 128.571% */
+  letter-spacing: -0.02em;
+  background: #1e1823;
 }
 .features-list {
 }
@@ -86,4 +101,46 @@ button {
 .features-caption {
 }
 .features-desc {
+}
+
+/* Ingridients section */
+.ingred-icon {
+}
+
+/* Made section */
+.made {
+}
+.made-title {
+}
+.made-img {
+}
+.made-right-side {
+  background-color:  #FFF;
+}
+.made-subtitle {
+}
+.made-list {
+}
+.made-item {
+}
+
+/* Footer section */
+.footer {
+  background-color: #1E1823;
+}
+.footer-socials {
+}
+.socials-item {
+}
+.socials-link {
+}
+.socials-icon {
+}
+.contact {
+}
+.contact-link {
+}
+.bottom-link {
+}
+.active {
 }
