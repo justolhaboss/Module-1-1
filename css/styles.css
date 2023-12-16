@@ -28,12 +28,12 @@ button {
 /* Reset styles  */
 
 /* Common style Спільні стилі у більшості елементів */
-.ingridients-title, 
+.ingridients-title,
 .made-title,
 .products-title,
-.bestsellers-title, 
+.bestsellers-title,
 .reviews-title {
-  font-size: 24px;;
+  font-size: 24px;
   font-weight: 600;
   line-height: 1.17;
   letter-spacing: -0.03em;
@@ -41,7 +41,7 @@ button {
   text-align: center;
 }
 .accent {
-  color: #FD9222 ;
+  color: #fd9222;
 }
 .socials {
 }
@@ -75,12 +75,12 @@ button {
 .header-link {
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.14; 
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .header-link:hover,
 .header-link:focus {
-  color: #FD9222;
+  color: #fd9222;
 }
 .header-socials {
 }
@@ -93,6 +93,9 @@ button {
 
 /* Hero section */
 .hero {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  color: #fff;
   background: rgba(17, 17, 17, 0.7);
 }
 .hero-title {
@@ -100,19 +103,22 @@ button {
   font-weight: 500;
   line-height: 1.21;
   letter-spacing: -0.03em;
-  color: #FFF;
 }
 .hero-list {
+  font-size: 14px;
+  font-weight: 600;
 }
 .hero-item {
 }
 .hero-btn {
-  font-size: 14px;
-  font-weight: 600;
-  color: #FFF;
   background-color: #fd9222;
 }
+.hero-btn-made {
+  background-color: inherit;
+  line-height: normal;
+}
 .hero-scroll {
+  background-color: inherit;
 }
 
 /* Feature section */
@@ -127,13 +133,13 @@ button {
   font-size: 18px;
   font-weight: 600;
   line-height: 1.22;
-  color: #FFF;
+  color: #fff;
 }
 .features-desc {
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.02em;
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.7);
 }
 
 /* Ingridients section */
@@ -160,6 +166,7 @@ button {
 /* Footer section */
 .footer {
   background-color: #1e1823;
+  color: #fff;
 }
 .footer-socials {
 }

@@ -110,10 +110,10 @@
             <button type="button" class="hero-btn">Buy now</button>
           </li>
           <li class="hero-item">
-            <button type="button" class="hero-btn">How it’s made</button>
+            <button type="button" class="hero-btn-made">How it’s made</button>
           </li>
-        </ul class="hero-scroll">
-        <button type="button">scroll down</button>
+        </ul>
+        <button type="button" class="hero-scroll">scroll down</button>
       </section>
 
       <!-- Feature section -->
@@ -371,12 +371,15 @@
           </li>
         </ul>
       </section>
+
       <!-- Reviews section -->
       <section class="reviews" id="reviews">
         <h2 class="reviews-title"><span class="accent">Chocolate</span> is loved</h2>
         <ul class="reviews-list">
           <li class="reviews-item">
-            <img src="./images/reviews/img-1.png" 
+            <img 
+            class="review-avatar"
+            src="./images/reviews/img-1.png" 
             alt=""
             width="80"
             height="80" />
@@ -386,7 +389,9 @@
             </p>
           </li>
           <li class="reviews-item">
-            <img src="./images/reviews/img-2.png" 
+            <img 
+            class="reviews-avatar"
+            src="./images/reviews/img-2.png" 
             alt=""
             width="80"
             height="80" />
@@ -396,7 +401,9 @@
             </p>
           </li>
           <li class="reviews-item">
-            <img src="./images/reviews/img-3.png" 
+            <img 
+            class="reviews-avatar"
+            src="./images/reviews/img-3.png" 
             alt=""
             width="80"
             height="80" />
@@ -412,8 +419,7 @@
 
     <!-- Footer section -->
     <footer class="footer">
-      <p><span>Chocolate</span> a delicious cure for a bad day</p>
-
+      <h1><span class="accent">Chocolate</span> a delicious cure for a bad day</h1>
       <p>Social networks</p>
       <ul class="footer-socials">
         <li class="socials-item">
@@ -425,7 +431,7 @@
             aria-label="Facebook site">
             <img
               class="socials-icon"
-              src="./images/icon/icon-facebook.svg"
+              src="./images/icon/white facebook.svg"
               alt="Facebook icon"
               width="24"
               height="24" />
@@ -440,7 +446,7 @@
             aria-label="Instagram site">
             <img
               class="socials-icon"
-              src="./images/icon/icon-instagram.svg"
+              src="./images/icon/white instagram.svg"
               alt="Instagram icon"
               width="24"
               height="24" />
@@ -455,7 +461,7 @@
             aria-label="Twitter site">
             <img
               class="socials-icon"
-              src="./images/icon/icon-twitter.svg"
+              src="./images/icon/white twitter.svg"
               alt="Twitters icon"
               width="24"
               height="24" />
@@ -467,11 +473,9 @@
         <ul class="contact">
           <li>
             <a href="tel:+380(68)4439426" class="contact-link"
-              >+380 (68) 443-94-26</a
-            >
+              >+380 (68) 443-94-26</a>
             <a href="mailto:simplychoc@gmail.com" class="contact-link"
-              >simplychoc@gmail.com</a
-            >
+              >simplychoc@gmail.com</a>
           </li>
         </ul>
       </address>
