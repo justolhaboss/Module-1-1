@@ -11,9 +11,15 @@ body {
   color: black;
   background-color: white; */
 
+/* Reset styles  */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}      
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 a {
   color: currentColor;
@@ -24,9 +30,6 @@ button {
   color: currentColor;
   cursor: pointer;
 }
-
-/* Reset styles  */
-
 /* Common style Спільні стилі у більшості елементів */
 .ingridients-title,
 .made-title,
@@ -118,7 +121,7 @@ button {
   line-height: normal;
 }
 .hero-scroll {
-  background-color: inherit;
+  background-color: initial;
 }
 
 /* Feature section */
