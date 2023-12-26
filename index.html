@@ -21,86 +21,88 @@
     <!-- Custom style -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!-- Header section -->
     <header class="header" id="header">
-      <nav class="header-nav">
-        <a href="./index.html" class="header-logo"><span class="header-logo-accent">SIMPLY</span>
-          CHOCOLATE
-          <img
-            class="header-logo-img"
-            src="./images/logo.svg"
-            alt="Site logo"
-            width="24"
-            height="24" />
-        </a>
-
-        <ul class="header-list">
-          <li class="header-item">
-            <a class="header-link" href="#home">Home</a>
+      <div class="container" style="display: flex">
+        <nav class="header-nav">
+          <a href="./index.html" class="header-logo"><span class="header-logo-accent">SIMPLY</span>
+            CHOCOLATE
+            <img
+              class="header-logo-img"
+              src="./images/logo.svg"
+              alt="Site logo"
+              width="24"
+              height="24" />
+          </a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="#home">Home</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#made">How it’s made?</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#reviews">Chocolate is loved</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-socials socials">
+          <li class="socials-item">
+            <a
+              href="https://www.facebook.com/"
+              class="socials-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook site">
+              <img
+                class="socials-icon"
+                src="./images/icon/icon-facebook.svg"
+                alt="Facebook icon"
+                width="24"
+                height="24" />
+            </a>
           </li>
-          <li class="header-item">
-            <a class="header-link" href="#made">How it’s made?</a>
+          <li class="socials-item">
+            <a
+              href="https://www.instagram.com/"
+              class="socials-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram site">
+              <img
+                class="socials-icon"
+                src="./images/icon/icon-instagram.svg"
+                alt="Instagram icon"
+                width="24"
+                height="24" />
+            </a>
           </li>
-          <li class="header-item">
-            <a class="header-link" href="#reviews">Chocolate is loved</a>
+          <li class="socials-item">
+            <a
+              href="https://www.twitter.com"
+              class="socials-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter site">
+              <img
+                class="socials-icon"
+                src="./images/icon/icon-twitter.svg"
+                alt="Twitter icon"
+                width="24"
+                height="24" />
+            </a>
           </li>
         </ul>
-      </nav>
-
-      <ul class="header-socials socials">
-        <li class="socials-item">
-          <a
-            href="https://www.facebook.com/"
-            class="socials-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Facebook site">
-            <img
-              class="socials-icon"
-              src="./images/icon/icon-facebook.svg"
-              alt="Facebook icon"
-              width="24"
-              height="24" />
-          </a>
-        </li>
-        <li class="socials-item">
-          <a
-            href="https://www.instagram.com/"
-            class="socials-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram site">
-            <img
-              class="socials-icon"
-              src="./images/icon/icon-instagram.svg"
-              alt="Instagram icon"
-              width="24"
-              height="24" />
-          </a>
-        </li>
-        <li class="socials-item">
-          <a
-            href="https://www.twitter.com"
-            class="socials-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter site">
-            <img
-              class="socials-icon"
-              src="./images/icon/icon-twitter.svg"
-              alt="Twitter icon"
-              width="24"
-              height="24" />
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <!-- Unique content -->
     <main>
       <!-- Hero section -->
       <section class="hero">
+      <div class="container">
         <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
@@ -114,10 +116,12 @@
           </li>
         </ul>
         <button type="button" class="hero-scroll">scroll down</button>
+      </div>
       </section>
 
       <!-- Feature section -->
       <section class="features">
+      <div class="container">
         <h2 hidden>Chocolate benefits</h2>
         <ul class="features-list">
           <li class="features-item">
@@ -149,22 +153,24 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Ingridients section -->
-      <section class="ingridients">
-        <h2 class="ingridients-title">It all adds up to one exceptional <span>taste</span> sensation</h2>
+      <section class="ingridients section">
+        <div class="container">
+        <h2 class="ingridients-title">It all adds up to one exceptional <span class="accent">taste</span> sensation</h2>
         <ul class="ingridients-list">
-          <li>
+          <li class="ingridients-item">
             <img
-              src="./images/ingridients/img-1.jpg"
+              src="./images/ingridients/img-1.svg"
               alt="Milk chocolate"
               class="ingred-icon"
               width="214"
               height="160" />
             <p>MILK CHOCOLATE</p>
           </li>
-          <li>
+          <li class="ingridients-item">
             <img
               src="./images/ingridients/img-2.jpg"
               alt="Milk"
@@ -173,7 +179,7 @@
               height="160" />
             <p>MILK</p>
           </li>
-          <li>
+          <li class="ingridients-item">
             <img
               src="./images/ingridients/img-3.jpg"
               alt="Nuts"
@@ -182,7 +188,7 @@
               height="160" />
             <p>NUTS</p>
           </li>
-          <li>
+          <li class="ingridients-item">
             <img
               src="./images/ingridients/img-4.jpg"
               alt="Sweet chocolate"
@@ -190,7 +196,7 @@
               height="160" />
             <p>SEMI - SWEET CHOCOLATE</p>
           </li>
-          <li>
+          <li class="ingridients-item">
             <img
               src="./images/ingridients/img-5.jpg"
               alt="Cacao"
@@ -198,7 +204,7 @@
               height="160" />
             <p>CACAO</p>
           </li>
-          <li>
+          <li class="ingridients-item">
             <img
               src="./images/ingridients/img-6.jpg"
               alt="Raspberry"
@@ -206,7 +212,7 @@
               height="160" />
             <p>RASPBERRY</p>
           </li>
-          <li>
+          <li class="ingridients-item">
             <img
               src="./images/ingridients/img-7.jpg"
               alt="Coconut oil"
@@ -215,10 +221,12 @@
             <p>COCONUT OIL</p>
           </li>
         </ul>
+      </div>
       </section>
 
 <!-- Made section -->
-      <section class="made" id="made">
+      <section class="made section" id="made">
+        <div class="container">
         <h2 class="made-title">How it’s <span class="accent">made</span>?</h2>
         <img src="./images/made/image.jpg" 
         alt="Made"
@@ -245,10 +253,12 @@
           </li>
         </ol>
         </div>
+      </div>
       </section>
 
 <!-- Products section -->
-      <section class="products">
+      <section class="products section">
+        <div class="container">
         <h2 class="products-title">Our <span class="accent">products</span></h2>
         <ul class="products-list">
           <li class="products-item">
@@ -340,10 +350,12 @@
             <button type="button" class="products-btn">54 UAH</button>
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Bestsellers section -->
-      <section class="bestsellers">
+      <section class="bestsellers section">
+        <div class="container">
         <h2 class="bestsellers-title">
           <span class="accent">Top</span>sellers
         </h2>
@@ -370,10 +382,12 @@
             <h3 bestsellers-caption>DARK CHOCOLATE</h3>
           </li>
         </ul>
+      </div>
       </section>
 
       <!-- Reviews section -->
-      <section class="reviews" id="reviews">
+      <section class="reviews section" id="reviews">
+        <div class="container">
         <h2 class="reviews-title"><span class="accent">Chocolate</span> is loved</h2>
         <ul class="reviews-list">
           <li class="reviews-item">
@@ -414,82 +428,85 @@
           </li>
         </ul>
         <button type="button" class="reviews-btn">Leave  a review</button>
+      </div>
       </section>
     </main>
 
     <!-- Footer section -->
     <footer class="footer">
-      <h1><span class="accent">Chocolate</span> a delicious cure for a bad day</h1>
-      <p>Social networks</p>
-      <ul class="footer-socials">
-        <li class="socials-item">
-          <a
-            href="https://facebook.com"
-            class="socials-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Facebook site">
-            <img
-              class="socials-icon"
-              src="./images/icon/white facebook.svg"
-              alt="Facebook icon"
-              width="24"
-              height="24" />
-          </a>
-        </li>
-        <li class="socials-item">
-          <a
-            href="http://instagram.com"
-            class="socials-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Instagram site">
-            <img
-              class="socials-icon"
-              src="./images/icon/white instagram.svg"
-              alt="Instagram icon"
-              width="24"
-              height="24" />
-          </a>
-        </li>
-        <li class="socials-item">
-          <a
-            href="http://twitter.com"
-            class="socials-link"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="Twitter site">
-            <img
-              class="socials-icon"
-              src="./images/icon/white twitter.svg"
-              alt="Twitters icon"
-              width="24"
-              height="24" />
-          </a>
-        </li>
-      </ul>
-      <address>
-        <p>Contact us</p>
-        <ul class="contact">
-          <li>
-            <a href="tel:+380(68)4439426" class="contact-link"
-              >+380 (68) 443-94-26</a>
-            <a href="mailto:simplychoc@gmail.com" class="contact-link"
-              >simplychoc@gmail.com</a>
+      <div class="container">
+        <p class="footer-slogan"><span class="accent">Chocolate</span> a delicious cure for a bad day</p>
+        <p class="footer-caption">Social networks</p>
+        <ul class="footer-socials socials">
+          <li class="socials-item">
+            <a
+              href="https://facebook.com"
+              class="socials-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Facebook site">
+              <img
+                class="socials-icon"
+                src="./images/icon/white facebook.svg"
+                alt="Facebook icon"
+                width="24"
+                height="24" />
+            </a>
+          </li>
+          <li class="socials-item">
+            <a
+              href="http://instagram.com"
+              class="socials-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram site">
+              <img
+                class="socials-icon"
+                src="./images/icon/white instagram.svg"
+                alt="Instagram icon"
+                width="24"
+                height="24" />
+            </a>
+          </li>
+          <li class="socials-item">
+            <a
+              href="http://twitter.com"
+              class="socials-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Twitter site">
+              <img
+                class="socials-icon"
+                src="./images/icon/white twitter.svg"
+                alt="Twitters icon"
+                width="24"
+                height="24" />
+            </a>
           </li>
         </ul>
-      </address>
-      <ul>
-        <li>
-          <a class="bottom-link active" href="#home">Home</a>
-        </li>
-        <li>
-          <a class="bottom-link active" href="#made">How it’s made?</a>
-        </li>
-        <li>
-          <a class="bottom-link active" href="#reviews">Chocolate is loved</a>
-        </li>
-      </ul>
+        <address>
+          <p>Contact us</p>
+          <ul class="contact">
+            <li>
+              <a href="tel:+380(68)4439426" class="contact-link"
+                >+380 (68) 443-94-26</a>
+              <a href="mailto:simplychoc@gmail.com" class="contact-link"
+                >simplychoc@gmail.com</a>
+            </li>
+          </ul>
+        </address>
+        <ul>
+          <li>
+            <a class="bottom-link active" href="#home">Home</a>
+          </li>
+          <li>
+            <a class="bottom-link active" href="#made">How it’s made?</a>
+          </li>
+          <li>
+            <a class="bottom-link active" href="#reviews">Chocolate is loved</a>
+          </li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>

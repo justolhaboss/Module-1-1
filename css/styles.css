@@ -12,9 +12,15 @@ body {
   background-color: white; */
 
 /* Reset styles  */
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
   margin: 0;
-}      
+}
 ul,
 ol {
   list-style-type: none;
@@ -31,11 +37,28 @@ button {
   cursor: pointer;
 }
 /* Common style Спільні стилі у більшості елементів */
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container {
+  width: 1168px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  outline: 2px solid red;
+  outline-offset: -2px;
+}
 .ingridients-title,
 .made-title,
 .products-title,
 .bestsellers-title,
 .reviews-title {
+  width: 412px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 24px;
   font-weight: 600;
   line-height: 1.17;
@@ -59,6 +82,8 @@ button {
 .header {
 }
 .header-nav {
+  display: flex;
+  padding: 24px 32px;
 }
 .header-logo {
   font-size: 18px;
@@ -72,10 +97,14 @@ button {
 .header-logo-img {
 }
 .header-list {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
 }
 .header-item {
 }
 .header-link {
+  display: block;
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
@@ -86,7 +115,9 @@ button {
   color: #fd9222;
 }
 .header-socials {
+  padding: 24px;
 }
+.header-socials socials
 .header-socials .socials-icon {
   color: black;
 }
@@ -102,16 +133,7 @@ button {
   background: rgba(17, 17, 17, 0.7);
 }
 .hero-title {
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 1.21;
-  letter-spacing: -0.03em;
-}
-.hero-list {
-  font-size: 14px;
-  font-weight: 600;
-}
-.hero-item {
+  width: 484px;j
 }
 .hero-btn {
   background-color: #fd9222;
@@ -172,6 +194,10 @@ button {
   color: #fff;
 }
 .footer-socials {
+}
+.socials {
+  display: flex;
+  gap: 30px;
 }
 .socials-item {
 }
