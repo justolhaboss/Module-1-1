@@ -25,7 +25,7 @@
   <body>
     <!-- Header section -->
     <header class="header" id="header">
-      <div class="container" style="display: flex">
+      <div class="header-container container">
         <nav class="header-nav">
           <a href="./index.html" class="header-logo"><span class="header-logo-accent">SIMPLY</span>
             CHOCOLATE
@@ -102,20 +102,30 @@
     <main>
       <!-- Hero section -->
       <section class="hero">
-      <div class="container">
+      <div class="hero-container container">
         <h1 class="hero-title">
           Treat yourself or a loved one to our finest ingredients for a moment
           of pure delight!
         </h1>
-        <ul class="hero-list">
-          <li class="hero-item">
-            <button type="button" class="hero-btn">Buy now</button>
-          </li>
-          <li class="hero-item">
-            <button type="button" class="hero-btn-made">How it’s made</button>
-          </li>
-        </ul>
-        <button type="button" class="hero-scroll">scroll down</button>
+        <div class="hero-wrapper">
+          <ul class="hero-list">
+            <li class="hero-item">
+              <button type="button" class="hero-btn primary">Buy now</button>
+            </li>
+            <li class="hero-item">
+              <button type="button" class="hero-btn secondary">How it’s made</button>
+            </li>
+          </ul>
+          <button type="button" class="hero-scroll">scroll down
+            <span class="circle">
+              <img
+                src="./images/icon/scroll-down.svg"
+                alt=""
+                width="22"
+                height="22" />
+            </span>
+          </button>
+        </div>
       </div>
       </section>
 
@@ -438,45 +448,45 @@
         <p class="footer-slogan"><span class="accent">Chocolate</span> a delicious cure for a bad day</p>
         <p class="footer-caption">Social networks</p>
         <ul class="footer-socials socials">
-          <li class="socials-item">
+          <li class="footer-socials-item">
             <a
               href="https://facebook.com"
-              class="socials-link"
+              class="footer-socials-link"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook site">
               <img
-                class="socials-icon"
+                class="footer-socials-icon"
                 src="./images/icon/white facebook.svg"
                 alt="Facebook icon"
                 width="24"
                 height="24" />
             </a>
           </li>
-          <li class="socials-item">
+          <li class="footer-socials-item">
             <a
               href="http://instagram.com"
-              class="socials-link"
+              class="footer-socials-link"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram site">
               <img
-                class="socials-icon"
+                class="footer-socials-icon"
                 src="./images/icon/white instagram.svg"
                 alt="Instagram icon"
                 width="24"
                 height="24" />
             </a>
           </li>
-          <li class="socials-item">
+          <li class="footer-socials-item">
             <a
               href="http://twitter.com"
-              class="socials-link"
+              class="footer-socials-link"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Twitter site">
               <img
-                class="socials-icon"
+                class="footer-socials-icon"
                 src="./images/icon/white twitter.svg"
                 alt="Twitters icon"
                 width="24"
